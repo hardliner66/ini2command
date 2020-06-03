@@ -1,5 +1,12 @@
 # ini2command
 
+## Installation & Update
+
+With cargo:
+```bash
+cargo install ini2command --force
+```
+
 ## Command Line
 ```bash
 ini2command 1.0
