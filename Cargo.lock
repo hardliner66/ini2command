@@ -118,7 +118,7 @@ dependencies = [
 
 [[package]]
 name = "ini2command"
-version = "0.1.2"
+version = "0.1.3-alpha.0"
 dependencies = [
  "clap",
  "codepage",
