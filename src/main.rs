@@ -217,7 +217,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
             _ => {
                 let output = Command::new(command).args(parts).output()?;
 
-                if cfg!(feature = "unstable_try_decode") {
+                if cfg!(feature = "unstable_try_decode") && cfg!(target_family = "windows") {
                     let in_cp = unsafe {
                         // winapi::um::consoleapi::GetConsoleOutputCP()
                         winapi::um::winnls::GetACP()
