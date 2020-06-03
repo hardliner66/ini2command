@@ -1,0 +1,22 @@
+[package]
+name = "ini2command"
+version = "0.1.0"
+authors = ["hardliner66 <hardliner66@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+categories = ["command-line-utilities"]
+keywords = ["ini", "command"]
+repository = "https://github.com/hardliner66/ini2command"
+readme = "README.md"
+
+[features]
+default = []
+unstable_try_decode = []
+
+[dependencies]
+rust-ini = "0.15"
+string-error = "0.1.0"
+clap = "2.33"
+winapi = {version="0.3.8", features=["winnls"]}
+codepage = "0.1.1"
+encoding_rs = "0.8.23"
