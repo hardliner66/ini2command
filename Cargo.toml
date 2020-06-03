@@ -1,5 +1,6 @@
 [package]
 name = "ini2command"
+description = "Create a command from a value of an INI-file and execute it."
 version = "0.1.0"
 authors = ["hardliner66 <hardliner66@gmail.com>"]
 edition = "2018"
